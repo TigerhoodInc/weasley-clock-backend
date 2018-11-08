@@ -50,7 +50,7 @@ config :phoenix, :plug_init_mode, :runtime
 # Configure your database
 config :weasley_clock, WeasleyClock.Repo,
   username: "postgres",
-  password: "postgres",
+  password: "cgwutwut",
   database: "weasley_clock_dev",
   hostname: "localhost",
   pool_size: 10
