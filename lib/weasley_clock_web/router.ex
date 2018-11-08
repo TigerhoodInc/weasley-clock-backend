@@ -8,6 +8,8 @@ defmodule WeasleyClockWeb.Router do
   scope "/api", WeasleyClockWeb do
     pipe_through :api
 
-    resources "/users", UserController, except: [:new, :edit]
+    resources "/users", UserController, except: [:new, :edit, :delete]
+    resources "/groups", GroupController, except: [:create, :edit]
+    resources "/memberships", MembershipController, only: [:create]
   end
 end

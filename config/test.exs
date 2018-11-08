@@ -12,7 +12,7 @@ config :logger, level: :warn
 # Configure your database
 config :weasley_clock, WeasleyClock.Repo,
   username: "postgres",
-  password: "postgres",
+  password: "cgwutwut",
   database: "weasley_clock_test",
   hostname: "localhost",
   pool: Ecto.Adapters.SQL.Sandbox
